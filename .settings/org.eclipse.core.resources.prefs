@@ -3,5 +3,6 @@ encoding//resources/config.properties=UTF-8
 encoding//resources/jdbc.properties=UTF-8
 encoding//resources/log4j.properties=UTF-8
 encoding//src/main/java=UTF-8
+encoding//src/main/webapp/index.jsp=UTF-8
 encoding//src/test/java=UTF-8
 encoding/<project>=UTF-8

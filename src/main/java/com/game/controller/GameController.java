@@ -13,12 +13,12 @@ import lombok.extern.log4j.Log4j;
 @Log4j
 @RequestMapping(value = "/")
 public class GameController {
-	@RequestMapping(value = "/gameMain", method=RequestMethod.GET)
-	public void gameMain(HttpServletRequest request,HttpServletResponse response) throws Exception {
+	@RequestMapping(value = "/game1Main", method=RequestMethod.POST)
+	public void game1Main(HttpServletRequest request,HttpServletResponse response) throws Exception {
 		log.info("interface gameMain start up...");
 		SwingUtilities.invokeLater(() -> {
 		      JFrame f = new JFrame();
-		      f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		      f.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		      f.setTitle("2048");
 		      f.setResizable(true);
 		      f.add(new Game2048(), BorderLayout.CENTER);
